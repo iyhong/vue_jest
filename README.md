@@ -20,5 +20,13 @@ npm run build
 npm run lint
 ```
 
+### Unit test
+```
+npm run test:unit
+```
+
+### vue Test Util
+See [Vue Test Utils](https://vue-test-utils.vuejs.org/)
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
