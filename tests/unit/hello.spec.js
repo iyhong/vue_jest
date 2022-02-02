@@ -5,3 +5,6 @@ it("test1", () => {
     const wrapper = shallowMount(HelloWorld);
     expect(wrapper.text()).toContain('Hello')
 })
+
+it("function test", () => {
+})

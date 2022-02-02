@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     This is Helloworld view!
+    {{ hello() }}
   </div>
 </template>
 
@@ -10,6 +11,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: {
+    hello(){
+      return 'hello'
+    }
   }
 }
 </script>
